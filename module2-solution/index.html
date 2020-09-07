@@ -6,15 +6,27 @@
 </head>	
 
 <style>
-
+#box {
+  box-sizing: border-box
+  background-color: blue;
+  padding: 0px;
+  border: 5px solid black;
+  width:50px ;
+  height:40px ;
+  overflow: auto;
+}
 </style>
 
 <body>
-	<div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-4 col-md-6 col-sm-12">Col 1</div>
-      <div class="col-lg-4 col-md-6 col-sm-12">Col 2</div>
-      <div class="col-lg-4 col-md-6 col-sm-12">Col 3</div>
-    </div>
+	<h1> Our Menu </h1>
+
+	<div id="box">
+    	<div class="row">
+      		<div class="col-lg-4 col-md-6 col-sm-12"><p>Col 1</p></div>
+      		<div class="col-lg-4 col-md-6 col-sm-12"><p>Col 2</p></div>
+      		<div class="col-lg-4 col-md-6 col-sm-12"><p>Col 3</p></div>
+    	</div>
+	</div>
+
 </body>
 </html>
